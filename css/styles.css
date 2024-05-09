@@ -319,7 +319,7 @@ p{
 .parallax_contactos{
 
     background-image: url("../imgs/leeclem.jpg");
-    background-size: 150%;
+    background-size: auto 100%;
     background-attachment: fixed;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -508,7 +508,7 @@ p{
 
 
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 400px) {
 
     .logo{
 
@@ -526,22 +526,32 @@ p{
 
     .abas a{
 
-        margin: 33px;
+        margin: 14px;
+
+    }
+
+    .title h1{
+
+        font-size: 80px;
+        
+    }
+
+    .title h2{
+
+        font-size: 15px;
 
     }
 
     .me_image{
 
         float: none;
-        margin: auto;
-        width: 410px;
+        width: 297px;
         padding: 0;
 
     }
-
     .justify{
 
-        width: 410px;
+        width: 297px;
         margin: auto;
         font-size: 13px;
         padding-top: 106px;
@@ -564,14 +574,14 @@ p{
     .slider_wrapper{
 
         position: relative;
-        width: 410px;
+        width: 297px;
         margin: 0 auto;
     
     }
 
     .slider{
 
-        width: 410px;
+        width: 297px;
 
     }
 
@@ -580,7 +590,7 @@ p{
         bottom: 120px;
     
     }
-
+    
     .proj{
 
         display: block;
@@ -589,18 +599,17 @@ p{
 
     .proj img{
 
-        width: 410px;
+        width: 297px;
         padding: 0 0 50px 0;
-        margin: auto;
 
     }
 
     .proj div{
 
-        text-align: center;
-        width: 410px;
-        padding: auto;
         margin: auto;
+        width: 297px;
+        padding: 0;
+        text-align: center;
         
     }
 
@@ -645,9 +654,109 @@ p{
     .overandout{
 
         margin-right: 0;
-        font-size: 13px;
 
     }   
+
+
+
+
+
+    #home{
+
+        text-align: center;
+        padding: auto 2rem;
+
+    }
+
+    #me{
+
+        text-align: center;
+        padding: 120px 2rem;
+
+    }
+
+    #portfolio{
+
+        padding: 120px 2rem 0 2rem;
+        text-align: center;
+
+    }
+
+    #sayhello h1{
+
+        margin: auto;
+
+    }
+
+    #sayhello p{
+
+        font-size: 13px;
+
+    }
+
+}
+
+@media only screen and (min-width: 576px) {
+
+    .abas a{
+
+        margin: 33px;
+
+    }
+    
+    .me_image{
+
+        width: 410px;
+
+    }
+
+    .justify{
+
+        width: 410px;
+
+    }
+
+    .slider_wrapper{
+
+        width: 410px;
+    
+    }
+
+    .slider{
+
+        width: 410px;
+
+    }
+
+    .proj img{
+
+        width: 410px;
+        padding: 0 0 50px 0;
+        margin: auto;
+
+    }
+
+    .proj div{
+
+        text-align: center;
+        width: 410px;
+        padding: auto;
+        margin: auto;
+        
+    }
+
+    .proj_text{
+
+        font-size: 13px;
+
+    }
+
+    .proj_text_p{
+
+        font-size: 13px;
+        margin-top: 30px;
+
+    } 
 
 
 
@@ -689,6 +798,18 @@ p{
         padding-top: 40px;
         padding-bottom: 40px;
         margin: auto 0;
+
+    }
+
+    .title h1{
+
+        font-size: 128px;
+        
+    }
+
+    .title h2{
+
+        font-size: 18px;
 
     }
 
@@ -758,11 +879,27 @@ p{
         font-size: 16px;
 
     }
+
+
+
+
     
+    #sayhello p{
+
+        font-size: 16px;
+
+    }
+
   }
 
 @media (min-width: 1650px) {
 
+    .title h2{
+
+        font-size: 22px;
+
+    }
+    
     .me_image{
 
         float: left;
