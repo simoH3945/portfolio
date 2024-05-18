@@ -1,11 +1,14 @@
 body{
 
-    font-family: "Roboto Mono", monospace;
+    /*font-family: "Roboto Mono", monospace;*/
+    font-family: "deuterium-variable", sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: #1A1A1A;
     color: white;
+    /*line-height: 1.6;*/
+    font-variation-settings: "wght" 300;
 
 }
 
@@ -276,7 +279,7 @@ p{
 .title h2{
 
     font-size: 20px;
-    font-weight: 400;
+    font-variation-settings: "wght" 200;
     margin: 0;
     filter: none;
 
@@ -373,6 +376,7 @@ p{
     color: white;
     transition: 0.2s;
     font-weight: bold;
+    margin-bottom: 0;
 
 }
 
@@ -384,41 +388,17 @@ p{
 
 .proj_category{
 
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 0;
 
 }
 
 .proj_text{
 
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
-
-
-
-
-
-/*.proj:nth-child(odd) img {
-    order: 1;
-}
-
-.proj:nth-child(odd) div {
-    order: 2;
-
-}
-
-.proj:nth-child(even) img {
-    order: 2;
-    padding: 1.5rem 2.5rem 2rem 4rem;
-}
-
-.proj:nth-child(even) div {
-    order: 1;
-    padding-left: 2.5rem;
-}*/
 
 
 
@@ -539,6 +519,7 @@ p{
     .title h2{
 
         font-size: 15px;
+        line-height: 1.3;
 
     }
 
@@ -553,8 +534,9 @@ p{
 
         width: 297px;
         margin: auto;
-        font-size: 13px;
+        font-size: 15px;
         padding-top: 106px;
+        line-height: 1.3;
 
     }
 
@@ -594,6 +576,7 @@ p{
     .proj{
 
         display: block;
+        margin-bottom: 0;
 
     }
 
@@ -609,20 +592,38 @@ p{
         margin: auto;
         width: 297px;
         padding: 0;
-        text-align: center;
+        text-align: left;
+        line-height: 1.3;
         
     }
 
     .proj_text{
 
-        font-size: 13px;
+        font-size: 15px;
+        line-height: 1.3;
+        text-align: justify;
 
     }
 
     .proj_text_p{
 
-        font-size: 13px;
+        font-size: 15px;
         margin-top: 30px;
+
+    }
+
+    .proj_category{
+
+        font-size: 13px;
+        margin-top: 0.5rem;
+    
+    }
+
+    .separador{
+
+        width: 300px;
+        margin: auto;
+        padding: 5rem 0;
 
     }
 
@@ -634,7 +635,8 @@ p{
 
     .center_and_bold{
 
-        font-size: 13px;
+        font-size: 15px;
+        line-height: 1.3;
 
     }
 
@@ -677,7 +679,7 @@ p{
 
     #portfolio{
 
-        padding: 120px 2rem 0 2rem;
+        padding: 120px 2rem 5rem 2rem;
         text-align: center;
 
     }
@@ -690,7 +692,7 @@ p{
 
     #sayhello p{
 
-        font-size: 13px;
+        font-size: 15px;
 
     }
 
@@ -738,7 +740,7 @@ p{
 
     .proj div{
 
-        text-align: center;
+        text-align: left;
         width: 410px;
         padding: auto;
         margin: auto;
@@ -747,16 +749,22 @@ p{
 
     .proj_text{
 
-        font-size: 13px;
+        font-size: 15px;
 
     }
 
     .proj_text_p{
 
-        font-size: 13px;
+        font-size: 15px;
         margin-top: 30px;
 
     } 
+
+    .separador{
+
+        width: 450px;
+
+    }
 
 
 
@@ -765,7 +773,7 @@ p{
     #me{
 
         text-align: center;
-        padding: 120px 6rem;
+        padding: 120px 4rem;
 
     }
 
@@ -773,7 +781,7 @@ p{
 
         padding-bottom: 0;
         padding-top: 120px;
-        padding: 120px 6rem 0 6rem;
+        padding: 120px 4rem 6rem 4rem;
 
     }
 
@@ -822,7 +830,7 @@ p{
     .justify{
 
         width: 660px;
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
@@ -858,25 +866,38 @@ p{
 
     .proj_text{
 
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
     .proj_text_p{
 
+        font-size: 18px;
+
+    }
+
+    .proj_category{
+
         font-size: 16px;
+        margin-top: 0;
+    
+    }
+
+    .separador{
+
+        width: 700px;
 
     }
 
     .center_and_bold{
 
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
     .overandout{
 
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
@@ -886,7 +907,7 @@ p{
     
     #sayhello p{
 
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
@@ -913,20 +934,26 @@ p{
 
         width: auto;
         margin: 0;
-        padding-top: 40px;
+        padding-top: 0;
 
     }
 
     .div_text_me{
 
-        padding: 0;
+        padding: 10px;
         margin: auto;
+
+    }
+
+    .justify{
+
+        font-size: 21px;
 
     }
 
     .container_slider{
 
-        padding: 56px 0;
+        padding: 0.7rem 0;
 
     }
 
@@ -975,14 +1002,42 @@ p{
 
     .proj_text{
 
-        font-size: 16px;
+        font-size: 21px;
 
     }
 
     .proj_text_p{
 
-        font-size: 16px;
+        font-size: 21px;
         margin-top: 30px;
+
+    }
+
+    .separador{
+
+        width: 800px;
+
+    }
+
+
+
+
+
+    #me{
+
+        padding: 120px 6rem;
+
+    }
+
+    #portfolio{
+
+        padding: 120px 6rem;
+
+    }
+
+    #sayhello p{
+
+        font-size: 21px;
 
     }
 
