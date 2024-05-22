@@ -926,7 +926,7 @@ p{
         float: left;
         margin: 0;
         width: 580px;
-        padding: 0rem 4rem 0rem 0rem;
+        padding: 0rem 6rem 0rem 0rem;
 
     }
 
@@ -953,27 +953,27 @@ p{
 
     .container_slider{
 
-        padding: 0.7rem 0;
+        padding: 1.5rem 0;
 
     }
 
     .slider_wrapper{
 
         position: relative;
-        width: 580px;
+        width: 28rem;
         margin: 0 auto;
     
     }
 
     .slider{
 
-        width: 580px;
+        width: 28rem;
 
     }
 
     .slider_nav{
 
-        bottom: 70px;
+        bottom: 130px;
     
     }
 
@@ -986,7 +986,7 @@ p{
     .proj img{
 
         width: 580px;
-        padding: 0 4rem 0 0;
+        padding: 0 6rem 0 0;
         margin: 0;
 
     }
@@ -996,7 +996,7 @@ p{
         text-align: left;
         width: 410px;
         padding: 0;
-        margin: 0;
+        margin: auto;
         
     }
 
@@ -1025,13 +1025,19 @@ p{
 
     #me{
 
-        padding: 120px 6rem;
+        padding: 120px 12rem 80px;
 
     }
 
     #portfolio{
 
-        padding: 120px 6rem;
+        padding: 120px 12rem;
+
+    }   
+
+    #sayhello{
+
+        padding: auto 12rem;
 
     }
 
