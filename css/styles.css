@@ -19,7 +19,7 @@ header{
     font-style: normal;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
 
 }
 
@@ -102,7 +102,7 @@ p{
 
 .abas a:hover{
 
-    color: #C4C4C4;
+    color: #ff5000;
 
 }
 
@@ -175,6 +175,7 @@ p{
 .slider_nav a:hover{
 
     opacity: 1;
+    background-color: #ff5000;
 
 }
 
@@ -382,7 +383,7 @@ p{
 
 .proj div a:hover{
 
-    color: #C4C4C4;
+    color: #ff5000 ;
 
 }
 
